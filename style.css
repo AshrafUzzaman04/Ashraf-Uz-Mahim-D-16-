@@ -1,11 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 * {
-  margin: auto;
-  padding: auto;
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
 }
 
+header {
+  width: 100%;
+}
 header > .manubar {
   width: 100%;
   padding: 0px 120px;
@@ -53,7 +56,16 @@ header > .manubar > ul .shopping:hover > a {
 }
 header section {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
   padding: 52px 132px 100px 120px;
+}
+header section .s_left {
+  margin-top: 104px;
+  margin-bottom: 101px;
+  height: 270px;
+  width: 582px;
+  margin-right: 133px;
 }
 header section .s_left > h1 {
   font-size: 52px;
@@ -65,6 +77,7 @@ header section .s_left > p {
   font-weight: 600;
   line-height: 24px;
   color: #3a3a3a;
+  padding: 18px 0px;
 }
 header section .s_left > button {
   background: #e02c6d;
@@ -78,6 +91,7 @@ header section .s_left > button > a {
   color: #fff;
   line-height: 24px;
   font-weight: 700;
+  font-size: 16px;
   transition: ease-in-out 0.5s;
 }
 header section .s_left > button > a > i {
@@ -85,10 +99,11 @@ header section .s_left > button > a > i {
   transition: ease-in-out 1s;
 }
 header section .s_left > button:hover {
-  background-color: #a01a4b;
+  background-color: #ff5493;
 }
 header section .s_left > button:hover > a {
-  word-spacing: 5px;
+  word-spacing: 4px;
+  letter-spacing: 2px;
 }
 header section .s_left > button:hover > a > i {
   display: inline-block;
