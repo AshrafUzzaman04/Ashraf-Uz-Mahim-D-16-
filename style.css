@@ -58,39 +58,39 @@ header > .manubar > ul .scarch:hover > a,
 header > .manubar > ul .shopping:hover > a {
   color: #e02c6d;
 }
-header section {
+header > section {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 52px 132px 100px 120px;
 }
-header section .s_left {
+header > section > .s_left {
   margin-top: 104px;
   margin-bottom: 101px;
   height: 270px;
   width: 582px;
   margin-right: 133px;
 }
-header section .s_left > h1 {
+header > section > .s_left > h1 {
   font-size: 52px;
   line-height: 70px;
   font-weight: 700;
   color: #3a3a3a;
 }
-header section .s_left > p {
+header > section > .s_left > p {
   font-weight: 600;
   line-height: 24px;
   color: #3a3a3a;
   padding: 18px 0px;
 }
-header section .s_left > button {
+header > section > .s_left > button {
   background: #e02c6d;
   border-radius: 41px;
   border: none;
   padding: 10px 24px 10px 24px;
   transition: ease-in-out 0.5s;
 }
-header section .s_left > button > a {
+header > section > .s_left > button > a {
   text-decoration: none;
   color: #fff;
   line-height: 24px;
@@ -98,14 +98,14 @@ header section .s_left > button > a {
   font-size: 16px;
   transition: ease-in-out 0.5s;
 }
-header section .s_left > button:hover {
+header > section > .s_left > button:hover {
   background-color: #ff5493;
 }
-header section .s_left > button:hover > a {
+header > section > .s_left > button:hover > a {
   word-spacing: 4px;
   letter-spacing: 2px;
 }
-header section > .s_right {
+header > section > .s_right {
   width: 475px;
   height: 475px;
   border-radius: 50%;
@@ -114,7 +114,7 @@ header section > .s_right {
   justify-content: center;
   align-items: center;
 }
-header section > .s_right > div {
+header > section > .s_right > div {
   width: 320px;
   height: 320px;
   background: #f7f0ff;
@@ -124,7 +124,7 @@ header section > .s_right > div {
   align-items: center;
   position: relative;
 }
-header section > .s_right > div > img {
+header > section > .s_right > div > img {
   width: 440px;
   height: 414px;
   position: absolute;
@@ -238,7 +238,7 @@ header > .social_media::after {
 }
 .product > .grid_product > .collection:hover {
   transform: translateY(-10px);
-  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.603);
+  box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.65);
 }
 .product > .see_more {
   float: right;
@@ -341,12 +341,57 @@ footer > ul > li {
   align-items: center;
   margin: 0px 8px;
   margin-top: 18px;
+  position: relative;
+  overflow: hidden;
+  transition: ease-in-out 0.5s;
 }
 footer > ul > li > a {
   text-decoration: none;
   color: #fff;
   line-height: 32px;
+  position: relative;
+  font-size: 18px;
 }
-footer > ul > li::before {
+footer > ul > li:hover::before {
+  top: 0;
+}
+footer > ul > .instra::before {
   content: "";
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(circle at 33% 100%, #fed373 4%, #f15245 30%, #d92e7f 62%, #9b36b7 85%, #515ecf);
+  position: absolute;
+  top: 100%;
+  left: 0;
+  transition: ease-in-out 0.5s;
+}
+footer > ul > .globe::before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-color: #2262aa;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  transition: ease-in-out 0.5s;
+}
+footer > ul > .twitter::before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-color: #28a3e4;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  transition: ease-in-out 0.5s;
+}
+footer > ul > .youtube::before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-color: #f70000;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  transition: ease-in-out 0.5s;
 }/*# sourceMappingURL=style.css.map */
