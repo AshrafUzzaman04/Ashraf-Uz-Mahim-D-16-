@@ -211,6 +211,7 @@ header {
       padding: 17px 15px;
       box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
       border-radius: 5px;
+      transition: ease-in-out 0.5s;
       > h1 {
         margin-top: 16px;
         margin-bottom: 8px;
@@ -249,6 +250,10 @@ header {
         letter-spacing: 0.018em;
         color: #787885;
         font-family: "Inter", sans-serif;
+      }
+      &:hover {
+        transform: translateY(-10px);
+        box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.603);
       }
     }
   }
@@ -333,6 +338,7 @@ footer {
     line-height: 24px;
     font-family: "Manrope", sans-serif;
     text-align: center;
+    margin-top: 10px;
   }
   > ul {
     display: flex;
@@ -341,10 +347,18 @@ footer {
       width: 32px;
       background-color: #22213c;
       border-radius: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 0px 8px;
+      margin-top: 18px;
       > a {
         text-decoration: none;
         color: #fff;
         line-height: 32px;
+      }
+      &::before {
+        content: "";
       }
     }
   }
