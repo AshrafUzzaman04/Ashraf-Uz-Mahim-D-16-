@@ -333,7 +333,7 @@ footer > ul {
 }
 footer > ul > li {
   list-style: none;
-  width: 32px;
+  width: 30px;
   background-color: #22213c;
   border-radius: 50%;
   display: flex;
@@ -348,9 +348,10 @@ footer > ul > li {
 footer > ul > li > a {
   text-decoration: none;
   color: #fff;
-  line-height: 32px;
+  line-height: 30px;
   position: relative;
-  font-size: 18px;
+  font-size: 20px;
+  margin: auto;
 }
 footer > ul > li:hover::before {
   top: 0;

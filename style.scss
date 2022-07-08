@@ -344,7 +344,7 @@ footer {
     display: flex;
     > li {
       list-style: none;
-      width: 32px;
+      width: 30px;
       background-color: #22213c;
       border-radius: 50%;
       display: flex;
@@ -358,9 +358,10 @@ footer {
       > a {
         text-decoration: none;
         color: #fff;
-        line-height: 32px;
+        line-height: 30px;
         position: relative;
-        font-size: 18px;
+        font-size: 20px;
+        margin: auto;
       }
       &:hover {
         &::before {
