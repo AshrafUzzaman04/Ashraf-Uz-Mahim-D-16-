@@ -98,7 +98,6 @@ header {
           color: #fff;
           line-height: 24px;
           font-weight: 700;
-          font-size: 16px;
           transition: ease-in-out 0.5s;
         }
         &:hover {
@@ -146,7 +145,12 @@ header {
     margin: 30px 165px 100px 165px;
     position: relative;
     padding: 20px 60px;
+
     > div {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
       > img {
         width: 160px;
         height: 80px;
@@ -188,6 +192,10 @@ header {
   width: 100%;
   padding: 0px 196px;
   padding-bottom: 74px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
   > span:first-child {
     display: flex;
     justify-content: center;
