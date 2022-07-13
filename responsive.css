@@ -6,7 +6,6 @@
     width: 140px;
     height: 76px;
   }
-
   .product > .grid_product {
     grid-gap: 30px;
   }
@@ -19,7 +18,6 @@
     width: 120px;
     height: 70px;
   }
-
   .product > .grid_product {
     grid-gap: 30px;
   }
@@ -35,7 +33,6 @@
     width: 120px;
     height: 70px;
   }
-
   .product > .grid_product {
     grid-gap: 30px;
   }
@@ -76,7 +73,6 @@
     width: 120px;
     height: 70px;
   }
-
   .product > .grid_product {
     grid-template-columns: repeat(3, 1fr);
   }
@@ -145,7 +141,6 @@
     width: 110px;
     height: 60px;
   }
-
   .product > .grid_product {
     grid-gap: 30px;
     grid-template-columns: repeat(3, 1fr);
@@ -178,7 +173,6 @@
     font-size: 12px;
     line-height: 20px;
   }
-
   .feature {
     margin: 90px 155px;
   }
@@ -205,7 +199,6 @@
     font-size: 14px;
     line-height: 22px;
   }
-
   footer {
     padding: 46px 0px;
   }
@@ -238,7 +231,7 @@
   }
   header > section > .s_left {
     margin-top: 95px;
-    margin-bottom: 90px;
+    margin-bottom: 65px;
     height: 260px;
     width: 570px;
     margin-right: 120px;
@@ -284,7 +277,6 @@
     width: 100px;
     height: 50px;
   }
-
   .product > span:first-child > a {
     font-size: 24px;
     line-height: 66px;
@@ -338,7 +330,6 @@
     font-size: 16px;
     text-shadow: 0px 3px 3px rgba(0, 0, 0, 0.25);
   }
-
   .feature {
     margin: 80px 145px;
   }
@@ -365,7 +356,6 @@
     font-size: 14px;
     line-height: 20px;
   }
-
   footer {
     padding: 40px 0px;
   }
@@ -392,8 +382,78 @@
   }
 }
 @media only screen and (max-width: 1279px) and (min-width: 1024px) {
+  header > .manubar {
+    padding: 30px 84px;
+    height: 46px;
+  }
+  header > .manubar > span > a {
+    line-height: 30px;
+    font-size: 18px;
+  }
+  header > .manubar > ul > li > a {
+    font-size: 10px;
+    padding: 0px 10px;
+  }
+  header > section {
+    padding: 40px 110px 15px 84px;
+  }
+  header > section > .s_left {
+    margin-top: 96px;
+    margin-bottom: 86px;
+    height: 220px;
+    width: 530px;
+    margin-right: 60px;
+  }
+  header > section > .s_left > h1 {
+    font-size: 33px;
+    line-height: 58px;
+  }
+  header > section > .s_left > p {
+    line-height: 18px;
+    padding: 12px 0px;
+    font-size: 10px;
+    width: 350px;
+  }
+  header > section > .s_left > button {
+    padding: 5px 18px 5px 18px;
+    border-radius: 34px;
+  }
+  header > section > .s_left > button > a {
+    line-height: 18px;
+    font-size: 10px;
+  }
+  header > section > .s_right {
+    width: 300px;
+    height: 300px;
+  }
+  header > section > .s_right > div {
+    width: 200px;
+    height: 200px;
+  }
+  header > section > .s_right > div > img {
+    width: 268px;
+    height: 260px;
+    left: -37px;
+    top: -26px;
+  }
+  header > .social_media {
+    grid-gap: 20px;
+    margin: 20px 145px 40px 145px;
+    padding: 16px 56px;
+    grid-template-columns: repeat(5, 1fr);
+  }
+  header > .social_media > div > img {
+    width: 100px;
+    height: 50px;
+  }
+  header > .social_media::before {
+    display: none;
+  }
+  header > .social_media::after {
+    display: none;
+  }
   .product > .grid_product {
-    grid-gap: 40px;
-    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+    grid-template-columns: repeat(3, 1fr);
   }
 }/*# sourceMappingURL=responsive.css.map */
