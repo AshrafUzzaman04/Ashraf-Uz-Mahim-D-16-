@@ -21,6 +21,9 @@ header > .manubar {
   align-items: center;
   background-color: #fff;
 }
+header > .manubar > a {
+  display: none;
+}
 header > .manubar > span > a {
   text-decoration: none;
   font-size: 24px;
@@ -250,7 +253,6 @@ header > .social_media::after {
   box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.65);
 }
 .product > .see_more {
-  float: right;
   margin-top: 50px;
 }
 .product > .see_more > a {
