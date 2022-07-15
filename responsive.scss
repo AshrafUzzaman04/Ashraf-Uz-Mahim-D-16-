@@ -720,7 +720,7 @@
     }
   }
   .product {
-    padding-bottom: 30px;
+    padding: 0;
     > span:first-child {
       > a {
         font-size: 20px;
@@ -936,7 +936,7 @@
     }
   }
   .product {
-    padding-bottom: 30px;
+    padding: 0;
     > span:first-child {
       > a {
         font-size: 16px;
@@ -951,7 +951,7 @@
     }
   }
   .feature {
-    margin: 10px 50px 80px 50px;
+    margin: 10px 0px 80px 0px;
     justify-content: center;
     flex-direction: column;
     position: relative;

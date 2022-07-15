@@ -643,7 +643,7 @@
     display: none;
   }
   .product {
-    padding-bottom: 30px;
+    padding: 0;
   }
   .product > span:first-child > a {
     font-size: 20px;
@@ -849,7 +849,7 @@
     display: none;
   }
   .product {
-    padding-bottom: 30px;
+    padding: 0;
   }
   .product > span:first-child > a {
     font-size: 16px;
@@ -862,7 +862,7 @@
     grid-template-columns: repeat(1, 1fr);
   }
   .feature {
-    margin: 10px 50px 80px 50px;
+    margin: 10px 0px 80px 0px;
     justify-content: center;
     flex-direction: column;
     position: relative;
